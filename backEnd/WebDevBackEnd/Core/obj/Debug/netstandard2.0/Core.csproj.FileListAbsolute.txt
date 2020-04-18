@@ -3,3 +3,7 @@ C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\Core\bin\Debug
 C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache
 C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
 C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\Core\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\Core\obj\Debug\netstandard2.0\Core.dll
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\Core\obj\Debug\netstandard2.0\Core.pdb

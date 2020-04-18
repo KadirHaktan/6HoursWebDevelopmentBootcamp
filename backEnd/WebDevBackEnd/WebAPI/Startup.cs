@@ -2,6 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Business.Abstract;
+using Business.Concrete;
+using DataAccess.Abstract;
+using DataAccess.Concrete.EntityFramework;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -25,6 +29,16 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IBookService, BookManager>();
+            services.AddSingleton<IBookDal, EfBookDal>();
+            //Baðýmlýlýklarý projemizin anlamasý açýsýnda soyut bir referans tipinde
+            //nesne çaðrýldýðýnda gerçek sýnýf neye karþýlýk geliyor bunu çözümlüyoruz
+
+            //Tabi bu baðýmlýlýklarý çözmek Autofac ya da Ninject tarzý kütüphanelerle
+            //ayrý birimde baðýmlýlýklarý çözümlemek daha profesyonel olacaktýr.Özellikle
+            //Autofac'in Interceptor yapýsý olmasý itibariyle AOP denilen nesne yönelimli kodlama
+            //tekniði uygulamamýza yardýmcý oluyor.O yüzden Autofac kullanýlabilir
+
             services.AddControllers();
         }
 

@@ -12,6 +12,19 @@ namespace WebAPI.Controllers
     [ApiController]
     public class BooksController : ControllerBase
     {
-        private IBookService bookServices { get; set; }
+        private IBookService _bookServices { get; set; }
+
+        public BooksController(IBookService _services)
+        {
+            this._bookServices = _services;
+        }
+        //Manager sınıfında olduğu gibi burda da bağımlılığı kaldırmak amacıyla
+        //Depency Injection tasarım deseni uygulanmakta
+
+        [HttpGet("getall")]
+        public IActionResult GetAll()
+        {
+            return Ok(_bookServices.GetAll());
+        }
     }
 }

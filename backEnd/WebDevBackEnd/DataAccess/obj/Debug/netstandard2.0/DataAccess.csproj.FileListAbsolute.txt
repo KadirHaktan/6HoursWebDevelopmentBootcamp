@@ -1,0 +1,14 @@
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\DataAccess\bin\Debug\netstandard2.0\Core.dll
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\DataAccess\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\DataAccess\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\DataAccess\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\qw\Desktop\webDevelopment-Bootcamp\backEnd\WebDevBackEnd\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
