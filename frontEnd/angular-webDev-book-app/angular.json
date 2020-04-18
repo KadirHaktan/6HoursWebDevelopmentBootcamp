@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "angular-webDev-book-app": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-webDev-book-app"
+    }
+  },
+  "defaultProject": "angular-webDev-book-app",
+  "cli": {
+    "analytics": "a535ad52-a255-4835-8533-be03d0e83e7a"
+  }
 }
