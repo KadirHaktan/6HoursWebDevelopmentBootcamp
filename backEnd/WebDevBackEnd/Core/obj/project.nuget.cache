@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YLIsQo9t2FOMXJ2U+19E24WYWn8IT84NRjz4ivLQ+Qu+YTS+0dn0WXJ9z0JyJSkO5OgyTh0R15t52gNL68/L3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\qw\\Desktop\\webDevelopment-Bootcamp\\backEnd\\WebDevBackEnd\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\qw\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\qw\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
