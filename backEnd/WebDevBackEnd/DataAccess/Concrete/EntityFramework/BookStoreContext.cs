@@ -9,11 +9,16 @@ namespace DataAccess.Concrete.EntityFramework
    public class BookStoreContext:DbContext
     {
 
+        string connectionString = "";
+        //kendi local'nizde connection string neyse ona girmelisiniz
+
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(@"Server=DESKTOP-0KLVU2P\SQLEXPRESS;Database=BookStore;Trusted_Connection=true");
+            options.UseSqlServer(connectionString);
+            //entity framework orm'i hangi veritabanını kullanacak ve connection string ne ise parametre olarak geçiriyoruz
         }
         public DbSet<Book> Books { get; set; }
+        //Books diye tanımlanan property aslında veritabanı tablosunun gerçek ismi yani Books(BookStore veritabanı içindeki bir tablo)
 
         
     }

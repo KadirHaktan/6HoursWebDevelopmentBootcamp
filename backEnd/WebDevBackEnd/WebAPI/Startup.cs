@@ -40,6 +40,14 @@ namespace WebAPI
             //tekniði uygulamamýza yardýmcý oluyor.O yüzden Autofac kullanýlabilir
 
             services.AddControllers();
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowOrigin",
+                    builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
+            });
+
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,11 +58,17 @@ namespace WebAPI
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
+            //UseCors middleware ile api'yi kullanacak olan bir origine izin saðlanýyor burada 4200 portlu olan angular uygulamasýna
+            //api'nin kendisini kullanmasýna izin veriliyor.
+            
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
             app.UseAuthorization();
+
 
             app.UseEndpoints(endpoints =>
             {

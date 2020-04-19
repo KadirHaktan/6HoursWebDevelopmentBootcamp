@@ -15,4 +15,6 @@ namespace Entities.Concrete
 
         public decimal Price { get; set; }
     }
+
+    //Veritabanına ait olan tablonun her bir column'u Book kitabı içinde property olarak verilmekte
 }
