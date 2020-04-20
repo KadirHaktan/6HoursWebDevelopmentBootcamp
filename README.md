@@ -12,9 +12,9 @@
   burada gerçekleştiririz
 
 * İş Mantık Katmanı(Business Logic Layer):Bu katmanda ise veritabanında gelen işlemin belirli kontrolleri ya da bir kurala göre
- işleyebilmesi için sadece bu kuralların ya da kontrollerin yapıldığı katmandır.Bakın dikkatinizi çekmek isterim aslda veritabanı
+ işleyebilmesi için sadece bu kuralların ya da kontrollerin yapıldığı katmandır.Bakın dikkatinizi çekmek isterim asla veritabanı
  işlemi yapılmıyor sadece veritabanındaki işleminin istenilen kurallara bağlanarak işlemini tamamlayıp ardından kullanıcı arayüze
- belirli bir sonuç dönülebilmesi gerekli kuralların,kontrollerin ya da filtrelemelerin yapıldığı katmandır.Bu kontrollerin
+ belirli bir sonuç dönülebilmesi için gerekli kuralların,kontrollerin ya da filtrelemelerin yapıldığı katmandır.Bu kontrollerin
  mesela arayüzden gelen verinin istenilen şekilde gelip gelmediğini kontrolü(validasyon(validation)) olabilir ya da belirli bir kullanıcı
  rolünün sadece ilgili sayfa üzerinde ekleme,silme vb. işlemleri yapabilmesi yetkilendirmeler yapılabilir ya da verileri tablo şeklinde
  sayfamızda görüntülemek istediğimiz her seferinde veritabanına gitmektense,bir sefer veritabanı tarafından veriler çekilip bunları
